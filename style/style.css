@@ -1,0 +1,419 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "lucida sans", arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.78em;
+  background-image: url("map.png");
+  background-position: center;
+  background-repeat: repeat;
+
+  color: #5d5d5d;
+}
+
+p {
+  margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: normal 179% "century gothic", arial, sans-serif;
+  color: #43423f;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2 {
+  font: normal 170% "century gothic", arial, sans-serif;
+  color: #b60000;
+}
+
+h3 {
+  font: normal 125% "century gothic", arial, sans-serif;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #b60000;
+}
+
+h5,
+h6 {
+  font: italic 95% arial, sans-serif;
+  color: #888;
+}
+
+h6 {
+  color: #362c20;
+}
+
+a,
+a:hover {
+  border-bottom: 1px dotted;
+  color: #635b53;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  color: #084552;
+}
+
+img {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  outline: none;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  float: left;
+  margin-right: 10px;
+}
+
+.right {
+  float: right;
+  margin-left: 10px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+blockquote {
+  margin: 20px 0px 20px 0px;
+  padding: 10px 20px 0px 20px;
+  border: 1px solid #e5e5db;
+  background: #fff;
+}
+
+ul {
+  margin: 2px 0px 18px 16px;
+  padding: 0px;
+}
+
+ul li {
+  list-style-type: square;
+  margin: 0px 0px 6px 0px;
+  padding: 0px;
+}
+
+ol {
+  margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li {
+  margin: 0px 0px 11px 0px;
+  padding: 0px;
+}
+
+#main,
+#logo,
+#menubar,
+#site_content,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main {
+  padding-bottom: 40px;
+}
+
+#header {
+  background: transparent url(logo.jpg) no-repeat;
+  
+}
+
+#logo {
+  width: 860px;
+  position: relative;
+  height: 200px;
+}
+
+#logo #logo_text {
+  position: absolute;
+  top: 27px;
+  left: 0;
+}
+
+#logo h1,
+#logo h2 {
+  font: normal 300% "Averia Serif Libre", cursive;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+}
+
+#logo_text h1,
+#logo_text h1 a,
+#logo_text h1 a:hover {
+  padding: 22px 0 0 0;
+  color: rgb(138, 129, 124);
+  text-decoration: none;
+  border: 0;
+}
+
+#logo_text h1 a .logo_colour {
+  color: #444;
+}
+
+#logo_text a:hover .logo_colour {
+  color: rgb(233, 13, 13);
+}
+
+#logo_text h2 {
+  font-size: 120%;
+  padding: 4px 0 0 0;
+  color: rgb(180, 102, 102);
+}
+
+#menubar {
+  width: 870px;
+  height: 46px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+ul#menu {
+  float: left;
+  margin: 0px;
+}
+
+ul#menu li {
+  float: left;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 0px;
+  list-style: none;
+}
+
+ul#menu li a {
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+  font-size: 120%;
+  display: block;
+  float: left;
+  height: 20px;
+  text-decoration: none;
+  padding: 9px 15px 5px 15px;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+ul#menu li.selected a {
+  height: 20px;
+  padding: 7px 15px 4px 15px;
+}
+
+ul#menu li.selected {
+  margin: 7px 0 0 0;
+}
+
+ul#menu li.selected a,
+ul#menu li.selected a:hover {
+  color: #00c6ef;
+}
+
+ul#menu li a:hover {
+  color: #00c6ef;
+}
+
+#site_content {
+  width: 820px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 10x 20px 20px 20px;
+  background: #f6f6f0 url(back.png) repeat-y;
+  border: 15px solid #fff;
+}
+
+#content {
+  text-align: left;
+  width: 820px;
+  padding: 0;
+}
+
+#content ul {
+  margin: 2px 0 22px 0px;
+}
+
+#content ul li#golemgif {
+  list-style-type: none;
+  background: url(golemgif.gif) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 51px 65px;
+  line-height: 2.5em;
+}
+
+#content ul li#goldgif {
+  list-style-type: none;
+  background: url(goldgif.gif) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 51px 65px;
+  line-height: 2.5em;
+}
+
+#content ul li#bossgif {
+  list-style-type: none;
+  background: url(bossgif.gif) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 51px 65px;
+  line-height: 2.5em;
+}
+
+#content ul li#hp {
+  list-style-type: none;
+  background: url(upgrade1.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#maxhp {
+  list-style-type: none;
+  background: url(upgrade4.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#speed {
+  list-style-type: none;
+  background: url(upgrade3.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#gun {
+  list-style-type: none;
+  background: url(upgrade2.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#ring {
+  list-style-type: none;
+  background: url(ring.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#ruby {
+  list-style-type: none;
+  background: url(ruby.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#diamond {
+  list-style-type: none;
+  background: url(diamond.png) no-repeat;
+  margin: 0 0 0 0;
+  padding: 0 0 30px 55px;
+  line-height: 2em;
+}
+
+#content ul li#keyboard {
+  list-style-type: none;
+  background: url(keyboard.png) no-repeat;
+  margin: 0 0;
+  padding: 70px;
+
+}
+
+#content ul li#leftclick {
+  list-style-type: none;
+  background: url(leftclick.png) no-repeat;
+  margin: 0 0;
+  padding: 60px;
+
+}
+
+#content ul li#rightclick {
+  list-style-type: none;
+  background: url(rightclick.png) no-repeat;
+  margin: 0 0;
+  padding: 60px;
+
+}
+
+#footer {
+  width: 800px;
+  font-family: "trebuchet ms", sans-serif;
+  font-size: 90%;
+  height: 28px;
+  padding: 20px 0 5px 0;
+  text-align: left;
+  background: transparent;
+  color: #a00606;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  padding: 0;
+}
+
+#footer a,
+#footer a:hover {
+  color: #eef3cd;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #d83f3afd;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+  transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+  background: #ff0000;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(255, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(255, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(255, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
