@@ -1,0 +1,8 @@
+#canvas {
+  border: 1px solid rgb(38, 92, 163);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
