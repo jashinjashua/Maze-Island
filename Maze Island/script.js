@@ -195,7 +195,7 @@ update = function () {
     ctx.font = "25px Georgia";
     ctx.fillStyle = "#E6E6E6";
     ctx.fillText(
-      "     Collected Rings  : " + collectdiamond + " x " + " 100",
+      "     Collected Rings  : " +  collectring + " x " + " 100",
       WIDTH / 2 - 670,
       HEIGHT / 2 - 220
     );
@@ -211,7 +211,7 @@ update = function () {
     ctx.font = "25px Georgia";
     ctx.fillStyle = "#E6E6E6";
     ctx.fillText(
-      "     Collected Diamonds  : " + collectring + " x " + " 400",
+      "     Collected Diamonds  : " + collectdiamond + " x " + " 400",
       WIDTH / 2 - 670,
       HEIGHT / 2 - 120
     );
