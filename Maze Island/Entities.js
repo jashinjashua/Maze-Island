@@ -1086,6 +1086,8 @@ GoldBullet = function (id, x, y, spdX, spdY, width, height, combatType) {
       if (self.testCollision(player)) {
         self.toRemove = true;
         player.hp -= 2;
+        playerpainsound.play();
+        
       }
     }
 
@@ -1164,6 +1166,7 @@ BossBullet = function (id, x, y, spdX, spdY, width, height, combatType) {
       if (self.testCollision(player)) {
         self.toRemove = true;
         player.hp -= 2.5;
+        playerpainsound.play();
         if (player.hp <= 0) player.onDeath2();
       }
     }
