@@ -4,6 +4,8 @@
  
  
 Web Browser Adventure Puzzle Game
+
+![Banner pic](https://github.com/jashinjashua/Maze-Island/blob/main/style/logo.jpg)
  
  
  updated : 29.03.2021
